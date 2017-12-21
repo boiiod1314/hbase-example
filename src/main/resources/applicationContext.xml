@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="
+     	http://www.springframework.org/schema/beans
+     	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd 
+     	http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context-3.0.xsd
+        http://www.springframework.org/schema/tx 
+        http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+        http://www.springframework.org/schema/aop 
+        http://www.springframework.org/schema/aop/spring-aop-3.0.xsd">
+	<!-- 
+	<context:component-scan base-package="com.netposa.service" />
+	
+	
+	<bean id="hc" class="com.netposa.service.HbaseConn" />
+	
+	<bean id="helloworldService" class="com.netposa.service.HelloworldService">
+		<constructor-arg ref="hc" />
+		<constructor-arg value="test"/>
+	</bean>
+	
+	<bean id="trafficIndexHphmService" class="com.netposa.service.TrafficIndexHphmService">
+		<constructor-arg ref="hc" />
+		<constructor-arg value="traffic_index_hphm"/>
+	</bean>
+	
+	<bean id="trafficIndexHphmReverseService" class="com.netposa.service.TrafficIndexHphmReverseService">
+		<constructor-arg ref="hc" />
+		<constructor-arg value="traffic_index_hphm_reverse"/>
+	</bean>
+	
+	
+	<bean id="trafficService" class="com.netposa.service.TrafficService">
+		<constructor-arg ref="hc" />
+		<constructor-arg value="traffic"/>
+	</bean>
+	-->
+</beans>
